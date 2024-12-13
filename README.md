@@ -49,19 +49,6 @@ data
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -412,19 +399,7 @@ data
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -664,19 +639,7 @@ data.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -853,19 +816,7 @@ data.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1168,19 +1119,7 @@ data
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1509,12 +1448,6 @@ print('Root Mean Squared Error test: {:.3f}'.format(rmse_test))
     Root Mean Squared Error test: 60.778
     
 
-    C:\Users\Ilya\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
-      warnings.warn(
-    C:\Users\Ilya\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
-      warnings.warn(
-    
-
 Коефіцієнти детермінації є досить низькими, до того ж R^2 тестової вибірки є істотно (на 0.08) більшим за R^2 тренувлаьної вибірки, що свідчить про погану навченість моделі.
 
 Що ж на рахунок RMSE, то вона також є нижчою для тестової вибірки, ніж для тренувальної.
@@ -1578,14 +1511,6 @@ print('Root Mean Squared Error test: {:.3f}'.format(rmse_test))
     Root Mean Squared Error test: 63.846
     
 
-    C:\Users\Ilya\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\linear_model\_coordinate_descent.py:697: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations, check the scale of the features or consider increasing regularisation. Duality gap: 4.589e+06, tolerance: 1.248e+03 Linear regression models with null weight for the l1 regularization term are more efficiently fitted using one of the solvers implemented in sklearn.linear_model.Ridge/RidgeCV instead.
-      model = cd_fast.enet_coordinate_descent(
-    C:\Users\Ilya\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
-      warnings.warn(
-    C:\Users\Ilya\AppData\Local\Programs\Python\Python313\Lib\site-packages\sklearn\metrics\_regression.py:492: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
-      warnings.warn(
-    
-
 Результати, отримані за **звичайною лінійною регресією** без тюнінгу гіперпараметрів та крос-валідацій:  
 
 ElasticNet(alpha= 1.0, l1_ratio= 0.0)\
@@ -1633,10 +1558,6 @@ coefs
     intercept (b0): 
      [-7243.38397988]
     
-
-
-
-
     person_capacity                12.510910
     host_is_superhost               1.870377
     multi                           6.962202
